@@ -17,7 +17,7 @@ img {
 .card-wrap {
   float:left;
   width:100%;
-  padding:0px;
+  padding:5px;
 }
 @media (min-width: 500px) {
   .card-wrap {
@@ -36,5 +36,5 @@ img {
   border-bottom:2px solid #ccc;
 }
 .card > div {
-  padding:0 1em;
+  padding:0 0em;
 }
