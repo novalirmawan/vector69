@@ -1,40 +1,20 @@
-*, *:after, *:before {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
 }
-img {
-  max-width:100%;
+
+div.gallery:hover {
+  border: 1px solid #777;
 }
-.card-grid {
-  width:100%;
+
+div.gallery img {
+  width: 100%;
+  height: auto;
 }
-.card-grid:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-.card-wrap {
-  float:left;
-  width:100%;
-  padding:5px;
-}
-@media (min-width: 500px) {
-  .card-wrap {
-    width:100%;
-  }
-}
-@media (min-width: 720px) {
-  .card-wrap {
-    width:50%;
-  }
-}
-.card {
-  background-color:white;
-  border-radius:5px;
-  border:1px solid #ccc;
-  border-bottom:2px solid #ccc;
-}
-.card > div {
-  padding:0 0em;
+
+div.desc {
+  padding: 15px;
+  text-align: center;
 }
