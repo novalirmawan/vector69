@@ -1,0 +1,25 @@
+div.88gallery {
+  margin: 1px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 49%;
+}
+
+div.88gallery:hover {
+  border: 1px solid #777;
+}
+
+div.88gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.88filesads {
+  padding: 15px;
+  text-align: center;
+}
+@media screen and (max-width: 650px) {
+  div.88gallery {
+    width: 100%;
+}
+}
